@@ -1,0 +1,151 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css">
+    <script type="module" src="./index.js" defer></script>
+</head>
+<body>
+    
+<div class="video-bg">
+ <video width="320" height="240" autoplay loop muted>
+  <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
+ </video>
+</div>
+<div class="app" id="parentWindowApp">
+    <div class="header">
+     <div class="menu-circle" style="background-color: #f96057;"></div>
+     <div class="menu-circle" style="background-color: #f8ce52;"></div>
+     <div class="menu-circle" style="background-color: #5fcf65;"></div>
+     <div class="header-menu" id="header-links-tab">
+      <a class="menu-link" style="color: #f9fafb;" href="#">Bhargav Navdiya</a>
+      <a class="menu-link notify" href="#" id="header-resume-tab">Resume</a>
+      <a class="menu-link notify" href="#" id="header-brief-tab">Brief</a>
+      <a class="menu-link notify" href="#" id="header-canvas-tab">Canvas</a>
+     </div>
+     <div class="search-bar">
+      <input type="text" placeholder="Search">
+     </div>
+     <div class="header-profile">
+      <div class="notification" id = "clock-logo-div">
+        <a href="#clockOverlayDiv">
+       <!-- <span class="notification-number">3</span> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+            </svg>
+        </a>
+      </div>
+      <div class="notification">
+        <a target="_blank" href="mailto:bhargavons@gmail.com">
+        <span class="notification-number">!</span>
+        <svg class="svg-icon" style="width: 20; height: 20;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path d="M896 128H128C73.6 128 32 169.6 32 224v576c0 54.4 41.6 96 96 96h768c54.4 0 96-41.6 96-96V224c0-54.4-41.6-96-96-96z m22.4 124.8s-329.6 188.8-393.6 220.8c-6.4 3.2-16 3.2-22.4 0-64-32-393.6-220.8-393.6-220.8-12.8-9.6-16-32-6.4-44.8 9.6-12.8 32-16 44.8-6.4l358.4 195.2c6.4 3.2 12.8 3.2 19.2 0l358.4-195.2c12.8-9.6 32-6.4 41.6 6.4 12.8 12.8 9.6 35.2-6.4 44.8z"  />
+        </svg>
+        </a>
+      </div>
+      <img class="profile-img" src=".\Resorce\Bhargav_Navdiya_Profile.png" alt="">
+     </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="left-side" id = "left-side-menu-bar">
+            <div class="side-wrapper">
+                <div class="side-title">Info</div>
+                <div class="side-menu">
+                    <a href="#">
+                        <svg viewBox="0 0 512 512">
+                            <g xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            <path d="M0 0h128v128H0zm0 0M192 0h128v128H192zm0 0M384 0h128v128H384zm0 0M0 192h128v128H0zm0 0" data-original="#bfc9d1" />
+                            </g>
+                            <path xmlns="http://www.w3.org/2000/svg" d="M192 192h128v128H192zm0 0" fill="currentColor" data-original="#82b1ff" />
+                            <path xmlns="http://www.w3.org/2000/svg" d="M384 192h128v128H384zm0 0M0 384h128v128H0zm0 0M192 384h128v128H192zm0 0M384 384h128v128H384zm0 0" fill="currentColor" data-original="#bfc9d1" />
+                        </svg>
+                        All Projects
+                    </a>
+                    <a href="#">
+                        <svg viewBox="0 0 488.932 488.932" fill="currentColor">
+                            <path d="M243.158 61.361v-57.6c0-3.2 4-4.9 6.7-2.9l118.4 87c2 1.5 2 4.4 0 5.9l-118.4 87c-2.7 2-6.7.2-6.7-2.9v-57.5c-87.8 1.4-158.1 76-152.1 165.4 5.1 76.8 67.7 139.1 144.5 144 81.4 5.2 150.6-53 163-129.9 2.3-14.3 14.7-24.7 29.2-24.7 17.9 0 31.8 15.9 29 33.5-17.4 109.7-118.5 192-235.7 178.9-98-11-176.7-89.4-187.8-187.4-14.7-128.2 84.9-237.4 209.9-238.8z" />
+                        </svg>
+                        Recent Updates
+                    </a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1ssZd8NrqFpUCBjBQ1TL8r1OKe_1_9B2B/view">
+                        <svg fill="#ffffff" viewBox="0 0 26 30" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M 6 3 L 6 29 L 26 29 L 26 9.59375 L 25.71875 9.28125 L 19.71875 3.28125 L 19.40625 3 Z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 Z M 20 6.4375 L 22.5625 9 L 20 9 Z M 11 13 L 11 15 L 21 15 L 21 13 Z M 11 17 L 11 19 L 21 19 L 21 17 Z M 11 21 L 11 23 L 21 23 L 21 21 Z"></path>
+                            </g>
+                        </svg>
+                        Resume
+                    </a>
+                    <a target="_blank" href="https://drive.usercontent.google.com/uc?id=1ssZd8NrqFpUCBjBQ1TL8r1OKe_1_9B2B&export=download">
+                        <svg viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.163 2.819C9 3.139 9 3.559 9 4.4V11H7.803c-.883 0-1.325 0-1.534.176a.75.75 0 0 0-.266.62c.017.274.322.593.931 1.232l4.198 4.401c.302.318.453.476.63.535a.749.749 0 0 0 .476 0c.177-.059.328-.217.63-.535l4.198-4.4c.61-.64.914-.96.93-1.233a.75.75 0 0 0-.265-.62C17.522 11 17.081 11 16.197 11H15V4.4c0-.84 0-1.26-.164-1.581a1.5 1.5 0 0 0-.655-.656C13.861 2 13.441 2 12.6 2h-1.2c-.84 0-1.26 0-1.581.163a1.5 1.5 0 0 0-.656.656zM5 21a1 1 0 0 0 1 1h12a1 1 0 1 0 0-2H6a1 1 0 0 0-1 1z" fill="#ffffff"></path>
+                            </g>
+                        </svg>
+                        Resume
+                        <span class="notification-number updates">!</span>
+                    </a>
+                </div>
+            </div>
+            <div class="side-wrapper">
+                <div class="side-title">Social Media</div>
+                <div class="side-menu">
+                    <a target="_blank" href="https://www.linkedin.com/in/bhargavnavdiya">
+                        <svg fill="#ffffff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier"> <title>linkedin</title> 
+                                <path d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z"></path> 
+                            </g>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a target="_blank" href="https://github.com/bhargavnavdiya">
+                        <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier"> <title>github [#142]</title> <desc>Created with Sketch.</desc> <defs> </defs> 
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+                                    <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#ffffff"> 
+                                        <g id="icons" transform="translate(56.000000, 160.000000)"> 
+                                            <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]"> </path> 
+                            </g> </g> </g> </g>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a target="_blank" href="https://buymeacoffee.com/bhargavnavdiya">
+                        <svg fill="#ffffff" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="m20.216 6.415-.132-.666c-.119-.598-.388-1.163-1.001-1.379-.197-.069-.42-.098-.57-.241-.152-.143-.196-.366-.231-.572-.065-.378-.125-.756-.192-1.133-.057-.325-.102-.69-.25-.987-.195-.4-.597-.634-.996-.788a5.723 5.723 0 0 0-.626-.194c-1-.263-2.05-.36-3.077-.416a25.834 25.834 0 0 0-3.7.062c-.915.083-1.88.184-2.75.5-.318.116-.646.256-.888.501-.297.302-.393.77-.177 1.146.154.267.415.456.692.58.36.162.737.284 1.123.366 1.075.238 2.189.331 3.287.37 1.218.05 2.437.01 3.65-.118.299-.033.598-.073.896-.119.352-.054.578-.513.474-.834-.124-.383-.457-.531-.834-.473-.466.074-.96.108-1.382.146-1.177.08-2.358.082-3.536.006a22.228 22.228 0 0 1-1.157-.107c-.086-.01-.18-.025-.258-.036-.243-.036-.484-.08-.724-.13-.111-.027-.111-.185 0-.212h.005c.277-.06.557-.108.838-.147h.002c.131-.009.263-.032.394-.048a25.076 25.076 0 0 1 3.426-.12c.674.019 1.347.067 2.017.144l.228.031c.267.04.533.088.798.145.392.085.895.113 1.07.542.055.137.08.288.111.431l.319 1.484a.237.237 0 0 1-.199.284h-.003c-.037.006-.075.01-.112.015a36.704 36.704 0 0 1-4.743.295 37.059 37.059 0 0 1-4.699-.304c-.14-.017-.293-.042-.417-.06-.326-.048-.649-.108-.973-.161-.393-.065-.768-.032-1.123.161-.29.16-.527.404-.675.701-.154.316-.199.66-.267 1-.069.34-.176.707-.135 1.056.087.753.613 1.365 1.37 1.502a39.69 39.69 0 0 0 11.343.376.483.483 0 0 1 .535.53l-.071.697-1.018 9.907c-.041.41-.047.832-.125 1.237-.122.637-.553 1.028-1.182 1.171-.577.131-1.165.2-1.756.205-.656.004-1.31-.025-1.966-.022-.699.004-1.556-.06-2.095-.58-.475-.458-.54-1.174-.605-1.793l-.731-7.013-.322-3.094c-.037-.351-.286-.695-.678-.678-.336.015-.718.3-.678.679l.228 2.185.949 9.112c.147 1.344 1.174 2.068 2.446 2.272.742.12 1.503.144 2.257.156.966.016 1.942.053 2.892-.122 1.408-.258 2.465-1.198 2.616-2.657.34-3.332.683-6.663 1.024-9.995l.215-2.087a.484.484 0 0 1 .39-.426c.402-.078.787-.212 1.074-.518.455-.488.546-1.124.385-1.766zm-1.478.772c-.145.137-.363.201-.578.233-2.416.359-4.866.54-7.308.46-1.748-.06-3.477-.254-5.207-.498-.17-.024-.353-.055-.47-.18-.22-.236-.111-.71-.054-.995.052-.26.152-.609.463-.646.484-.057 1.046.148 1.526.22.577.088 1.156.159 1.737.212 2.48.226 5.002.19 7.472-.14.45-.06.899-.13 1.345-.21.399-.072.84-.206 1.08.206.166.281.188.657.162.974a.544.544 0 0 1-.169.364zm-6.159 3.9c-.862.37-1.84.788-3.109.788a5.884 5.884 0 0 1-1.569-.217l.877 9.004c.065.78.717 1.38 1.5 1.38 0 0 1.243.065 1.658.065.447 0 1.786-.065 1.786-.065.783 0 1.434-.6 1.499-1.38l.94-9.95a3.996 3.996 0 0 0-1.322-.238c-.826 0-1.491.284-2.26.613z"></path>
+                            </g>
+                        </svg>
+                        Buy Me a Coffie
+                    </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-container">
+            <div class="main-header">
+            <!-- <a class="menu-link-main" href="#">All Apps</a> -->
+                <div class="header-menu" id="sub-header-menu">
+                </div>
+            </div>
+
+            <div class="content-wrapper" id = "content-wrapper-id">
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<!-- Test HTML -->
+
+<!-- End of Test HTML -->
+</body>
+</html>
