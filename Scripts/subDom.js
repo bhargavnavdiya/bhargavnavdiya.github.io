@@ -184,15 +184,23 @@ export function clearContentWrapper(){
 }
 
 export function renderClockDiv(){
+    console.log('clock clicked');
     if (document.getElementById("clockOverlayDiv")) {
+        console.log('already exist');
+        document.getElementById("clockOverlayDiv").classList.add('visible');
         return; // Do not create a new overlay if one already exists
     }
+    console.log('making new one');
     const backBlurOverlay = document.createElement('div');
     backBlurOverlay.classList.add('overlay', 'light');
     backBlurOverlay.id = "clockOverlayDiv";
+    backBlurOverlay.classList.add('visible');
     const cancleALink = document.createElement('a');
     cancleALink.classList.add('cancel');
     cancleALink.href = "#"
+    cancleALink.addEventListener('click',()=>{
+        backBlurOverlay.classList.remove('visible');
+    })
     const popupContentDiv = document.createElement('div');
     popupContentDiv.classList.add('popup');
     const clockFrame = document.createElement('iframe');

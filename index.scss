@@ -624,6 +624,7 @@ body.light-mode .video-bg:before {
     visibility: hidden;
     align-content: center;
     opacity: 0;
+    z-index: 999;
     &.light {
         background: rgba(255,255,255,0);
         backdrop-filter: blur(1px);
@@ -635,7 +636,7 @@ body.light-mode .video-bg:before {
         cursor: default;
         top: 0;
     }
-    &:target {
+    &.visible {
         visibility: visible;
         opacity: 1;
     }

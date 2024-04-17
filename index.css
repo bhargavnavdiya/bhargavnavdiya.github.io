@@ -627,6 +627,7 @@ body.light-mode .video-bg:before {
   visibility: hidden;
   align-content: center;
   opacity: 0;
+  z-index: 999;
 }
 .overlay.light {
   background: rgba(255, 255, 255, 0);
@@ -640,7 +641,7 @@ body.light-mode .video-bg:before {
   cursor: default;
   top: 0;
 }
-.overlay:target {
+.overlay.visible {
   visibility: visible;
   opacity: 1;
 }
