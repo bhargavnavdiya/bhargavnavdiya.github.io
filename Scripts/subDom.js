@@ -196,7 +196,7 @@ export function renderClockDiv(){
     const popupContentDiv = document.createElement('div');
     popupContentDiv.classList.add('popup');
     const clockFrame = document.createElement('iframe');
-    clockFrame.src = 'http://127.0.0.1:8080/Frames/clock/clock.html';
+    clockFrame.src = 'https://bhargavnavdiya.github.io/clockJS/';
     clockFrame.width = '100%';
     clockFrame.height = '100%';
     clockFrame.setAttribute('frameborder', '0');
