@@ -5,10 +5,10 @@ export function showBriefContent(){
 export function handleBriefSubHeaders(subHeaderClicked){
     if (subHeaderClicked === 'Projects'){
         subDom.clearContentWrapper();
-        alert("🥲, \nThere is nothing here at a time.");
+        alert("🥲\nThere is nothing here at a time.");
 
     }else if (subHeaderClicked === 'Publishment'){
         subDom.clearContentWrapper();
-        alert("]🫠, \nThis section is still under development.")
+        alert("🫠\nThis section is still under development.")
     }
 }
