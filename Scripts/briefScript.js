@@ -3,11 +3,12 @@ export function showBriefContent(){
     subDom.updateSubHeaderMenu(['Projects','Publishment'],'brief');
 }
 export function handleBriefSubHeaders(subHeaderClicked){
-    if (subHeaderClicked === 'Overview'){
+    if (subHeaderClicked === 'Projects'){
         subDom.clearContentWrapper();
-    }else if (subHeaderClicked === 'Projects'){
+        alert("Told you 🥲, \nThere is nothing here at a time.");
+
+    }else if (subHeaderClicked === 'Publishment'){
         subDom.clearContentWrapper();
-    }else if (subHeaderClicked === 'Publishments'){
-        subDom.clearContentWrapper();
+        alert("Stop bro 🫠, \n Please stop, there is nothing here.")
     }
 }
