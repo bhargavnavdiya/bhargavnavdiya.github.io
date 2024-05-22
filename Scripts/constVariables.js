@@ -158,6 +158,20 @@ export const LIST_OF_TOOLS6 = [
         svgTextContent : 'Slack'
     },
 ];
+export const LIST_OF_TOOLS7 = [
+    {
+        svgFilePath: '../Resorce/svg/jenkins_wikimedia_org.svg',
+        svgTextContent : 'Jenkins'
+    },
+    {
+        svgFilePath: '../Resorce/svg/Azure-techicons-dev.svg',
+        svgTextContent : 'Azure'
+    },
+    {
+        svgFilePath: '../Resorce/svg/terraform-techicons-dev.svg',
+        svgTextContent : 'Terraform'
+    },
+];
 
 export const SKILL_SET = "Skill set";
 
