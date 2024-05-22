@@ -160,7 +160,7 @@ export const LIST_OF_TOOLS6 = [
 ];
 export const LIST_OF_TOOLS7 = [
     {
-        svgFilePath: '../Resorce/svg/jenkins-techicons-dev.svg',
+        svgFilePath: '../Resorce/svg/Jenkins-techicons-dev.svg',
         svgTextContent : 'Jenkins'
     },
     {
@@ -168,7 +168,7 @@ export const LIST_OF_TOOLS7 = [
         svgTextContent : 'Azure'
     },
     {
-        svgFilePath: '../Resorce/svg/terraform-techicons-dev.svg',
+        svgFilePath: '../Resorce/svg/Terraform-techicons-dev.svg',
         svgTextContent : 'Terraform'
     },
 ];
