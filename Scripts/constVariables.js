@@ -160,7 +160,7 @@ export const LIST_OF_TOOLS6 = [
 ];
 export const LIST_OF_TOOLS7 = [
     {
-        svgFilePath: '../Resorce/svg/jenkins_wikimedia_org.svg',
+        svgFilePath: '../Resorce/svg/jenkins-techicons-dev.svg',
         svgTextContent : 'Jenkins'
     },
     {
