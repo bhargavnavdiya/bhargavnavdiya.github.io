@@ -31,8 +31,9 @@ function renderSkillsElements(){
     const listOfTools4 = subDom.cardOfProductSection(LIST_OF_TOOLS4);
     const listOfTools5 = subDom.cardOfProductSection(LIST_OF_TOOLS5);
     const listOfTools6 = subDom.cardOfProductSection(LIST_OF_TOOLS6);
+    const listOfTools7 = subDom.cardOfProductSection(LIST_OF_TOOLS7);
     const appsCardHolder = subDom.makeAppsCardHolder();
-    subDom.appendElements(appsCardHolder,[listOfTools, listOfTools1, listOfTools2, listOfTools3, listOfTools4, listOfTools5, listOfTools6]);
+    subDom.appendElements(appsCardHolder,[listOfTools, listOfTools1, listOfTools2, listOfTools3, listOfTools4, listOfTools5, listOfTools6, listOfTools7]);
     subDom.renderContentSectionDiv(SKILL_SET, [appsCardHolder]);
 }
 
